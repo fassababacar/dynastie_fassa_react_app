@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/dynastie_fassa_react_app/static/js/main.2d1b1fb3.js",
+    "main.js": "/dynastie_fassa_react_app/static/js/main.cf21b80b.js",
     "index.html": "/dynastie_fassa_react_app/index.html",
-    "main.2d1b1fb3.js.map": "/dynastie_fassa_react_app/static/js/main.2d1b1fb3.js.map"
+    "main.cf21b80b.js.map": "/dynastie_fassa_react_app/static/js/main.cf21b80b.js.map"
   },
   "entrypoints": [
-    "static/js/main.2d1b1fb3.js"
+    "static/js/main.cf21b80b.js"
   ]
 }
