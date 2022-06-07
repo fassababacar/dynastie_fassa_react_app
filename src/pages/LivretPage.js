@@ -14,7 +14,7 @@ export class LivretPage extends React.Component {
             <h1 id="" className="h1 text-center mb-5">ROSSO-Médine-Mauritanie</h1>
             <div id="" className="row">
                 <div id="" className="card col-sm-6">
-                    <img id="" className="card-img-top rounded-circle" alt="" src="../../public/mesAssets/df1.png"/>
+                    <img id="" className="card-img-top rounded-circle" alt="" src="mesAssets/df1.png"/>
                     <div id="" className="card-body ">
                     <h4 id="" className="card-title text-center">Babacar FASSA</h4>
                     <div id="" className="card-text">
@@ -39,7 +39,7 @@ export class LivretPage extends React.Component {
                     </div>
                 </div>
                 <div id="" className="card col-sm-6">
-                    <img id="" className="card-img-top rounded-circle" alt="" src="../../public/mesAssets/df2.png"/>
+                    <img id="" className="card-img-top rounded-circle" alt="" src="mesAssets/df2.png"/>
                     <div id="" className="card-body text-justify">
                     <h4 id="" className="card-title text-center">Khoudia THIAM</h4>
                     <div id="" className="card-text">
