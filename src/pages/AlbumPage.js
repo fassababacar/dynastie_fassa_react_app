@@ -12,7 +12,7 @@ export class AlbumPage extends React.Component {
   
     render() {
       return (
-        <div >Babacar FASSA</div>
+        <div >Babacar FASSA 2</div>
       );
     }
   }

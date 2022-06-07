@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route, Link } from "react-router-dom";
 import { LivretPage} from '../pages/LivretPage'
 import { ArbrePage} from '../pages/ArbrePage'
-import { AlbumPage} from '../pages/AlbumPage'
+// import { AlbumPage} from '../pages/AlbumPage'
 
 
 export class HeaderPage extends React.Component {
@@ -17,7 +17,7 @@ export class HeaderPage extends React.Component {
                     <div id="NavBarCollaps" className="collapse navbar-collapse justify-content-between">
                         <p><Link to={'/'} className="navbar-brand" data-toggle="collapse" data-target= ".navbar-collapse.show"> Afficher le Livret de Famille </Link></p>
                         <p><Link to={'/arbre'} className="navbar-brand" data-toggle="collapse" data-target= ".navbar-collapse.show"> Afficher l'Arbre de la Famille </Link></p>
-                        <p><Link to={'/album'} className="navbar-brand" data-toggle="collapse" data-target= ".navbar-collapse.show"> Afficher l'album de la Famille </Link></p>
+                        {/* <p><Link to={'/album'} className="navbar-brand" data-toggle="collapse" data-target= ".navbar-collapse.show"> Afficher l'album de la Famille </Link></p> */}
                     </div>
                     </nav>
                 </div>
@@ -26,7 +26,7 @@ export class HeaderPage extends React.Component {
                     <Routes>
                         <Route exact path="/" element={<LivretPage/>} />
                         <Route path="/arbre" element={<ArbrePage myDiagramDivId="myDiagramDiv"/>} />
-                        <Route path="/album" element={<AlbumPage/>} />
+                        {/* <Route path="/album" element={<AlbumPage/>} /> */}
                     </Routes>
                 </div>
             </div>
