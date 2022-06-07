@@ -2,7 +2,11 @@
   "name": "dynastie_fassa_react_app",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://fassababacar.github.io/dynastie_fassa_react_app",
+=======
+  "homepage": "https://fassababacar.github.io/",
+>>>>>>> parent of 40688c0... Configure React app for deployment to GitHub Pages
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
